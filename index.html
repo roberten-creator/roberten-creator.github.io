@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robert's Portfolio</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="site-title">
+      <a href="./index.html">Robert's Portfolio</a>
+    </h1>
+    <nav class="header-nav flex-box">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="./index.html">HOME</a></li>
+        <li class="nav-item"><a href="#about">ABOUT</a></li>
+        <li class="nav-item"><a href="#works">WORKS</a></li>
+        <li class="nav-item"><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <button class="burger-btn">
+      <span class="bars">
+        <span class="bar bar_top"></span>
+        <span class="bar bar_mid"></span>
+        <span class="bar bar_bottom"></span>
+      </span>
+    </button>
+    <span class="burger-musk"></span>
+  </header>
+
+  <main>
+    <div class="fv">
+      <div class="kv-wrapper">
+        <div class="copy-wrapper">
+          <p class="main-copy">
+            make u smile.
+          </p>
+          <p class="sub-copy">CORDER Robert</p>
+          <p class="copy_jp">
+            丁寧なコーディングとコミュニケーションで<br>
+            お客様に寄り添い、誠実にご対応いたします。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="section-wrapper" id="about">
+      <h2 class="section-title">ABOUT</h2>
+      <div class="content-wrapper flex-box">
+        <div class="about-img-wrapper">
+          <img src="./images/about.jpg" alt="PCと向き合う写真">
+        </div>
+        <div class="about-content">
+          <h3>Robertについて</h3>
+          <p class="about-text">
+            <span>京都大学の現役大学院生。</span>
+            <span>コーディングの面白さに魅了されて、</span>
+            <span>HTML/CSS/jQuery/WordPress を独学。</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrapper" id="works">
+      <div class="content-wrapper">
+        <h2 class="section-title">WORKS</h2>
+        <ul class="works-list flex-box">
+          <a href="">
+            <li class="works-item">
+              <div class="works-list-img"><img src="./images/works-1.png" alt="クリスタ上級編のイメージ写真"></div>
+              <div class="works-list-detail">
+                <p>HTML/CSS/jQuery</p>
+                <h3>クリスタ上級編</h3>
+              </div>
+            </li>
+          </a>
+          <a href="">
+            <li class="works-item">
+              <div class="works-list-img"><img src="./images/works-2.png" alt="クリスタ中級編のイメージ写真"></div>
+              <div class="works-list-detail">
+                <p>HTML/CSS/jQuery</p>
+                <h3>クリスタ中級編</h3>
+              </div>
+            </li>
+          </a>
+          <a href="">
+            <li class="works-item">
+              <div class="works-list-img"><img src="./images/works-3.png" alt="ブログサイトのイメージ写真"></div>
+              <div class="works-list-detail">
+                <p>WordPress</p>
+                <h3>オリジナルブログ</h3>
+              </div>
+            </li>
+          </a>
+        </ul>
+        <p class="works-text">
+          <span>クリスタ上級編及び中級編は、</span>
+          <span>デザインカンプからのコーディングです。</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="section-wrapper" id="contact">
+      <div class="content-wrapper">
+        <h2 class="section-title">CONTACT</h2>
+        <p class="contact-text">
+          <span>お仕事のご依頼・ご相談など、</span>
+          <span>お気軽にご連絡ください！</span>
+        </p>
+        <p class="contact-warning">
+          <span>現時点では、</span>
+          <span>お問い合わせページは設けておりません。</span>
+          <span>WORKS内のお問い合わせフォームも、</span>
+          <span>現在は使用でませんのでご了承ください。</span>
+        </p>
+        <a href="./index.html" class="link-btn">お問い合わせページへ</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <small>&copy;2021 Robert | All Rights Reserverd</small>
+  </footer>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
